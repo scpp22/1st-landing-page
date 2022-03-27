@@ -1,0 +1,121 @@
+/* FULL BACKGROUND----------------------------------------*/
+body {
+    background: url(./image/bg1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/* NAV-------------------------------------------------- */
+
+.main-nav {
+    background: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4rem;
+    align-items: center;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.logo-img {
+    width: 70px;
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+}
+.logo-name {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-size: 1.1em;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.1em;
+}
+
+.page-list>a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-decoration: none; */
+    padding: 0.5em;
+    color: white;
+}
+
+
+/* RESPONSIVE-------------------------------------------------------- */
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
+    body {
+        background: url(./image/bg1.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+/* MAIN---------------------------------------------------------- */
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 150vh;
+    
+   
+}
+
+.header-text {
+    color:azure;
+}
+
+.info {
+    color:azure;
+}
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.animate__animated.animate__flash {
+    --animate-duration: 5s;
+}
+
+
+/* FOOTER---------------------------------------------------------- */
+
+.footer {
+    height: 3em;
+    margin-top: -3em;
+    padding: 0;
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    color: gainsboro;
+  }
+}
